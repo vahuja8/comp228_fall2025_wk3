@@ -17,7 +17,7 @@ public class RollDie
       int frequency6 = 0; // count of 6s rolled
    
       // tally counts for 6,000,000 rolls of a die
-      for (int roll = 1; roll <= 6000000; roll++) 
+      for (int roll = 1; roll <= 600000000; roll++) 
       {
          int face = 1 + randomNumbers.nextInt(6); // number from 1 to 6
    
